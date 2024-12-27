@@ -1,0 +1,47 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (if using virtualenv instead of Conda)
+env/
+venv/
+*.env
+
+# Conda environments
+*.conda
+*.env
+*.envs
+*.lock
+*.yaml
+
+# Environment variables and secrets
+*.env
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# IDE/editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Dependencies generated in some workflows
+requirements.txt
